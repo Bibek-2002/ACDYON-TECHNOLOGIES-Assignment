@@ -1,0 +1,333 @@
+
+@media screen and (max-width: 390px){
+
+    .navbar-components{
+        width: 100%;
+        height: 65px;
+        padding: 0 20px;
+    }
+
+    .navbar-menus{
+        display: none;
+    }
+
+    .navbar-buttons{
+        gap: 5px;
+    }
+
+    .btn-signin{
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .btn-analyzejob{
+        padding: 9px 13px;
+        font-size: 12px;
+    }
+
+    .navbar-name{
+        font-size: 18px;
+    }
+
+    .hero{
+        padding: 65px 20px;
+        min-height: auto;
+    }
+
+    .hero-components{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 50px;
+    }
+
+    .content-description{
+        width: 100%;
+    }
+
+    .description-top-heading{
+        font-size: 9px;
+        letter-spacing: 1px;
+        margin-bottom: 16px;
+    }
+
+    .description-heading{
+        font-size: 38px;
+        line-height: 1.1;
+        margin-bottom: 20px;
+    }
+
+    .description-description{
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .description-buttons{
+        gap: 18px;
+    }
+
+    .description-buttons .btn-analyzejob{
+        padding: 10px 16px;
+    }
+
+    .description-work-button{
+        font-size: 13px;
+    }
+
+    .hero-preview{
+        width: 100%;
+    }
+
+    .dashboard{
+        width: 100%;
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    .dashboard-header{
+        margin-bottom: 18px;
+        padding-bottom: 15px;
+    }
+
+    .dashboard-eyebrow{
+        font-size: 8px;
+    }
+
+    .dashboard-job{
+        font-size: 12px;
+    }
+
+    .dashboard-body{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .score-panel{
+        width: 100%;
+    }
+
+    .score-ring{
+        width: 125px;
+        height: 125px;
+        border-width: 8px;
+    }
+
+    .score-number{
+        font-size: 30px;
+    }
+
+    .score-caption{
+        font-size: 10px;
+    }
+
+    .match-lists{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+
+    .match-list h3{
+        font-size: 10px;
+    }
+
+    .match-list li{
+        font-size: 11px;
+        padding: 6px 0;
+    }
+
+    .ai-card{
+        padding: 12px;
+    }
+
+    .ai-card p{
+        font-size: 8px;
+    }
+
+    .ai-card span{
+        font-size: 11px;
+    }
+
+    .how-it-work{
+        padding: 70px 20px;
+    }
+
+    .how-it-work-components{
+        width: 100%;
+    }
+
+    .how-it-work-heading{
+        width: 100%;
+    }
+
+    .section-top-heading{
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+
+    .how-it-work-heading h2{
+        font-size: 32px;
+    }
+
+    .how-it-work-heading p:last-child{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .how-it-work-steps{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 35px;
+    }
+
+    .step{
+        min-height: auto;
+        padding: 20px;
+    }
+
+    .step h3{
+        font-size: 20px;
+    }
+
+    .step p{
+        font-size: 13px;
+    }
+
+    .product-showcase{
+        padding: 75px 20px;
+    }
+
+    .product-showcase-components{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 40px;
+    }
+
+    .product-showcase-description{
+        width: 100%;
+    }
+
+    .product-showcase-description h2{
+        font-size: 32px;
+    }
+
+    .product-showcase-description p:last-child{
+        font-size: 14px;
+    }
+
+    .resume-dashboard{
+        width: 100%;
+        padding: 18px;
+    }
+
+    .resume-dashboard-header{
+        padding-bottom: 15px;
+    }
+
+    .resume-insight-row{
+        gap: 10px;
+        min-height: 60px;
+    }
+
+    .resume-insight-row > span:first-child{
+        width: 100px;
+        font-size: 11px;
+    }
+
+    .resume-insight-row strong{
+        font-size: 11px;
+        padding: 4px 9px;
+    }
+
+    .skill-tags{
+        gap: 5px;
+    }
+
+    .skill-tags span{
+        font-size: 9px;
+        padding: 5px 7px;
+    }
+
+    .features{
+        padding: 75px 20px;
+    }
+
+    .features-components{
+        width: 100%;
+    }
+
+    .features-heading{
+        width: 100%;
+    }
+
+    .features-heading h2{
+        font-size: 32px;
+    }
+
+    .features-heading p:last-child{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .features-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 20px;
+        margin-top: 40px;
+    }
+
+    .feature{
+        padding-right: 0;
+    }
+
+    .feature h3{
+        font-size: 18px;
+    }
+
+    .feature p{
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .final-section{
+        padding: 90px 20px;
+    }
+
+    .final-section-components{
+        width: 100%;
+    }
+
+    .final-section-components h2{
+        font-size: 34px;
+    }
+
+    .final-section-components p{
+        font-size: 14px;
+    }
+
+    .footer{
+        padding: 30px 20px;
+    }
+
+    .footer-components{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-menus{
+        gap: 18px;
+    }
+
+    .footer-menus a{
+        font-size: 11px;
+    }
+
+}
