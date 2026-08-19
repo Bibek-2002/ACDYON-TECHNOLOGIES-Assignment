@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
 body{
     background: #09090B;
     color: #F5F3EF;
@@ -12,7 +17,12 @@ body{
 
 .navbar{
     width: 100%;
-    border-bottom: 1px solid grey
+    border-bottom: 1px solid grey;
+    position: fixed;
+    background: #09090B;
+    z-index: 1000;
+    top: 0;
+    left: 0;
 }
 
 .navbar-components{
@@ -22,6 +32,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.navbar-toggle-btn {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
 }
 
 .navbar-brand-logo{
@@ -249,6 +267,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .score-ring{

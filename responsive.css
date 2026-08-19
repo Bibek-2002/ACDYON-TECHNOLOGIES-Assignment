@@ -1,6 +1,10 @@
 
 @media screen and (max-width: 390px){
 
+    html{
+        scroll-padding-top: 70px;
+    }
+
     .navbar-components{
         width: 100%;
         height: 65px;
@@ -12,17 +16,100 @@
     }
 
     .navbar-buttons{
-        gap: 5px;
+        display: none;
     }
 
-    .btn-signin{
-        padding: 8px 10px;
-        font-size: 12px;
+    .navbar-toggle-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        align-items: center;
+        justify-content: center;
+        z-index: 1001;
     }
 
-    .btn-analyzejob{
-        padding: 9px 13px;
-        font-size: 12px;
+    .navbar-toggle-btn .dot {
+        width: 5px;
+        height: 5px;
+        background-color: #F5F3EF;
+        border-radius: 50%;
+        transition: background-color 0.2s ease, transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .navbar-toggle-btn:hover .dot {
+        background-color: #38bdf8;
+    }
+
+    .navbar-toggle-btn.active .dot:nth-child(1) {
+        transform: translateY(2px) scale(0.8);
+        opacity: 0.5;
+    }
+
+    .navbar-toggle-btn.active .dot:nth-child(2) {
+        transform: scale(1.3);
+        background-color: #38bdf8;
+    }
+
+    .navbar-toggle-btn.active .dot:nth-child(3) {
+        transform: translateY(-2px) scale(0.8);
+        opacity: 0.5;
+    }
+
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background-color: #09090B;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+        padding: 20px 24px;
+        gap: 20px;
+        z-index: 1000;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);
+    }
+
+    .mobile-menu.open {
+        display: flex;
+    }
+
+    .mobile-navbar-menus {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .mobile-navbar-menus a {
+        color: #A1A1AA;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 6px 0;
+        transition: color 0.2s ease;
+    }
+
+    .mobile-navbar-menus a:hover {
+        color: white;
+    }
+
+    .mobile-navbar-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        border-top: 1px solid #27272A;
+        padding-top: 18px;
+    }
+
+    .mobile-navbar-buttons .btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        font-size: 14px;
     }
 
     .navbar-name{
@@ -30,7 +117,7 @@
     }
 
     .hero{
-        padding: 65px 20px;
+        padding: 95px 20px 65px 20px;
         min-height: auto;
     }
 
