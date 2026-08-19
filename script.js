@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function(){
             emojiEl.style.pointerEvents = "none";
             emojiEl.style.userSelect = "none";
             emojiEl.style.zIndex = "100";
-
+            
             // Random start position around the score-ring
             const rect = scoreRing.getBoundingClientRect();
             const containerRect = container.getBoundingClientRect();
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
             emojiEl.style.left = startX + "px";
             emojiEl.style.top = startY + "px";
-
+            
             // Set styles for transition
             emojiEl.style.transition = "transform 1s cubic-bezier(0.25, 1, 0.5, 1), opacity 1s ease";
             container.appendChild(emojiEl);
@@ -198,10 +198,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
     // 3. Easter Egg: Konami Code
     const konamiCode = [
-        "ArrowUp", "ArrowUp",
-        "ArrowDown", "ArrowDown",
-        "ArrowLeft", "ArrowRight",
-        "ArrowLeft", "ArrowRight",
+        "ArrowUp", "ArrowUp", 
+        "ArrowDown", "ArrowDown", 
+        "ArrowLeft", "ArrowRight", 
+        "ArrowLeft", "ArrowRight", 
         "b", "a"
     ];
     let konamiIndex = 0;
